@@ -46,11 +46,14 @@ body{
 .imageSection{
     background-color: #6b6b6b;
     margin-left: 20px;
-    flex: 0 1 550px;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imageSection img{
+    width: 400px;
+    height: auto;
 }
 
 .sectionText h2{
@@ -87,13 +90,43 @@ body{
     text-align: center;
 }
 
-.heroImage{
+.heroImage1,
+.heroImage2,
+.heroImage3,
+.heroImage4{
     border: 3px solid #3882F6;
     border-radius: 15px;
-    height: 170px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: auto;
+    width: 175px;
+    height: 200px;
+}
+
+.heroImage1{
+    background-image: url(../images/pexels-aleks-michajlowicz-6748158.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroImage2{
+    background-image: url(../images/pexels-chevanon-photography-1108099.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroImage3{
+    background-image: url(../images/pexels-jozef-fehér-1633522.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroImage4{
+    background-image: url(../images/pexels-हर्षल-📸-15910790.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .quoteArea{
